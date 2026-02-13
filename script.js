@@ -19,6 +19,11 @@ function travel(username) {
       notes: notes
     };
   };
+
+  travel.prototype.deleteDestination = function(id) {
+    delete this.destinations[id];
+    return this.destinations;
+};
 };
 
 function travelDestination(name, location, landmarks, date, notes) {
@@ -29,7 +34,17 @@ function travelDestination(name, location, landmarks, date, notes) {
   this.notes = notes;
 };
 
-// const newDestination = new travelDestination("Paris", "France", ["Eiffel Tower", "Louvre Museum"], "2023-05-01", "Had a great time exploring the city!");
-// const newTravel = new travel("David");
-// newTravel.addDestination(newDestination.name, newDestination.location, newDestination.landmarks, newDestination.date, newDestination.notes);
-// console.log(newTravel.destinations);
+
+const Paris = new travelDestination("Paris", "France", ["Eiffel Tower", "Louvre Museum"], "2023-05-01", "Had a great time exploring the city!");
+const Tokyo = new travelDestination("Tokyo", "Japan", ["Shibuya Crossing", "Tokyo Tower"], "2023-06-15", "Loved the vibrant culture and delicious food!");
+
+const newTravel = new travel("David");
+
+newTravel.addDestination(Paris.name, Paris.location, Paris.landmarks, Paris.date, Paris .notes);
+newTravel.addDestination(Tokyo.name, Tokyo.location, Tokyo.landmarks, Tokyo.date, Tokyo.notes);
+
+console.log(newTravel.destinations);
+newTravel.deleteDestination(1);
+console.log(newTravel.destinations);
+
+
