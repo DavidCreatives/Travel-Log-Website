@@ -4,4 +4,74 @@
     background-color: green;
     margin-bottom: 20px;
     padding: 10px;
+    width: 100%;
 }
+
+.Form{
+    box-shadow: -5px 5px brown;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    width: fit-content;
+    max-width: 500px;
+    overflow: auto;
+    margin-left: 20px;
+    
+}
+
+.Form input, textarea{
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 90%;
+    max-width: 500px;
+    min-height: 20px;
+    overflow: auto;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 16px;
+    min-width: 400px;
+    max-height: 200px;
+}
+
+.Form button{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s ease;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.Form button:hover{
+    background-color: darkgreen;
+    transform: scale(1.2) translateX(-50%);
+}
+
+.Form h3{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: darkgreen;
+    text-align: center;
+}
+body{
+  margin: 1px;
+}
+
+.Footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    height: 200px;
+}
+
