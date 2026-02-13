@@ -1,3 +1,8 @@
+body{
+  margin: 2px;
+  overflow: auto;
+}
+
 .Title{
     font-size: 24px;
     font-weight: bold;
@@ -32,6 +37,7 @@
     font-size: 16px;
     min-width: 400px;
     max-height: 200px;
+    
 }
 
 .Form button{
@@ -60,9 +66,8 @@
     color: darkgreen;
     text-align: center;
 }
-body{
-  margin: 1px;
-}
+
+
 
 .Footer{
     background-color: green;
@@ -75,3 +80,22 @@ body{
     height: 200px;
 }
 
+.ContentContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.travelDisplay{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: -5px 5px 10px rgba(0,0,0,0.2);
+    background-color: white;
+    flex-grow: 1;
+    margin: 10px;
+    
+}
