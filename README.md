@@ -1,5 +1,13 @@
-# Travel-Log-Website
-A website that'll track and display the destinations a user has been.
+# Travel-Log-Website ✈️#
+
+## 📖Project Description ##
+A website that'll track and display the destinations a user has been.  
+It will allow a user to enter, store, view and delete destination records of where he/she has been.
+
+## Author Information ##
+**Name** : David Kamau   
+**Email** : davidkm.official@gmail.com  
+**GitHub** : @DavidCreatives  
 
 # Tests using TDD #
 ## Test 1 ##
