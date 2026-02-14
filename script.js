@@ -64,8 +64,8 @@ function handleTravel(){
   const notesValue = notesField.value.trim();
 
   // Validation
-  if (!nameValue || !locationValue || !dateValue) {
-    alert("Please fill in name, location, and date fields");
+  if (!nameValue || !locationValue || !dateValue || !landmarksValue || !notesValue) {
+    alert("Please fill in all fields");
     return;
   }
 
