@@ -33,7 +33,7 @@ It will allow a user to enter, store, view and delete destination records of whe
   **Status:** ✅ Passed  
   **Code changes:** Creation of `travel` constructor  
 
-2. ***Test 2 *** 
+2. ***Test 2*** 
   **Test:** Creation of destination constructor and some prototypes(genId and add new destination)  
   **Date and time:** 10.57PM, 13/02/2026  
   **Status:** ✅ Passed  
@@ -45,7 +45,7 @@ It will allow a user to enter, store, view and delete destination records of whe
   **Status:** ✅ Passed  
   **Code changes:** Creation of `deleteDestination()` prototype.  
 
-4. *** Test 4  ***
+4. ***Test 4***
   **Test:** Creating functionality of the submit button, displaying destinations, \
            deleting destinations and tweaking of some of the javascript logic.
   **Date and time:** 10.23 AM, 14/02/2026  
