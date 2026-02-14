@@ -1,4 +1,4 @@
-# Travel-Log-Website ✈️#  
+# Travel-Log-Website ✈️ #  
 
 ## 📖Project Description ##  
 A website that'll track and display the destinations a user has been.  
@@ -67,4 +67,4 @@ Copyright (c) 2024 **[DavidCreatives]**
 
 Licensed under the [MIT License](https://github.com/DavidCreatives/Akan-Name-Generator/blob/main/LICENSE).
 
-# Travel-Log-Website ✈️# 
+# Travel-Log-Website ✈️ # 
